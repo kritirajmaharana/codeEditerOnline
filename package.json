@@ -1,0 +1,13 @@
+{
+  "name": "codeediteronline",
+  "version": "1.0.0",
+  "description": "this is a simple code editer online",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "author": "\"Kritiraj Maharana\",",
+  "license": "ISC"
+}

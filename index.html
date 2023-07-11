@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Code Editer</title>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<label for=""><i class="fa-brands fa-html5"></i>HTML</label>
+			<textarea name="" id="html-code" onkeyup="run()"></textarea>
+
+			<label for=""><i class="fa-brands fa-css3-alt"></i>CSS</label>
+			<textarea name="" id="css-code" onkeyup="run()"></textarea>
+			<label for=""><i class="fa-brands fa-js"></i>JS</label>
+			<textarea name="" id="js-code" onkeyup="run()"></textarea>
+		</div>
+
+		<div class="right">
+			<label for=""><i class="fa-solid fa-play"></i>Output</label>
+			<iframe src="" id="output" frameborder="0"></iframe>
+		</div>
+	
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
